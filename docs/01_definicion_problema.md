@@ -1,4 +1,4 @@
-# 1. Definición del problema
+# 1. Definición del problema, nuevo proyecto
 
 ## Contexto
 La aplicación está pensada para centros logísticos y empresas con maquinaria
