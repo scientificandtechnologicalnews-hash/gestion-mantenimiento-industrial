@@ -56,7 +56,7 @@ ROOT_URLCONF = 'config.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / "templates"],  # aquí pondremos nuestras plantillas
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -132,3 +132,9 @@ MAILERS = {
 # Ficheros subidos por los usuarios (manuales, esquemas...)
 MEDIA_URL = "/media/"
 MEDIA_ROOT = BASE_DIR / "media"
+
+
+# A dónde mandar al usuario según la acción de autenticación
+LOGIN_URL = "login"                              # si intenta entrar sin sesión
+LOGIN_REDIRECT_URL = "maintenance:panel"         # tras iniciar sesión
+LOGOUT_REDIRECT_URL = "maintenance:home"         # tras cerrar sesión

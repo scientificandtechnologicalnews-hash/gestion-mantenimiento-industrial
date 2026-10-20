@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Mi panel</h1>
+    <p>Usuario: <strong>{{ user.username }}</strong></p>
+    <p>Rol:
+        {% for g in grupos %}{{ g }}{% empty %}Sin rol asignado{% endfor %}
+    </p>
+
+    <h2>Qué puedes hacer</h2>
+    <ul>
+        <!-- "perms" es una variable automática con los permisos del usuario -->
+        {% if perms.maintenance.view_documento %}
+            <li>Consultar documentos técnicos</li>
+        {% endif %}
+        {% if perms.maintenance.add_incidencia %}
+            <li>Registrar incidencias</li>
+        {% endif %}
+        {% if perms.maintenance.add_maquina %}
+            <li>Gestionar máquinas y documentos</li>
+        {% endif %}
+        {% if user.is_staff %}
+            <li><a href="/admin/">Entrar al panel de administración</a></li>
+        {% endif %}
+    </ul>
+{% endblock %}
