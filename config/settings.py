@@ -156,3 +156,12 @@ REST_FRAMEWORK = {
     "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
     "PAGE_SIZE": 10,
 }
+
+# Orígenes desde los que Django acepta formularios (POST).
+# Esta lista es SOLO para desarrollo: el servidor de Vite del puerto 5173.
+# En producción React se servirá desde el mismo dominio de Django
+# y no hará falta añadir nada más que el dominio real.
+CSRF_TRUSTED_ORIGINS = [
+    "http://localhost:5173",
+    "http://127.0.0.1:5173",
+]
