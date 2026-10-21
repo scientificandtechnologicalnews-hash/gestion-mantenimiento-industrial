@@ -7,6 +7,7 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     # Incluye las rutas de login, logout, cambio de contraseña, etc.
     path("cuentas/", include("django.contrib.auth.urls")),
+    path("api/", include("maintenance.api_urls")),
     # Rutas de nuestra app (la raíz del sitio)
     path("", include("maintenance.urls")),
 ]

@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'maintenance',  # nuestra app. Sin esto Django no la reconoce    
+    'rest_framework',
+    'maintenance',  # nuestra app. Sin esto Django no la reconoce
+
 ]
 
 MIDDLEWARE = [
@@ -138,3 +140,19 @@ MEDIA_ROOT = BASE_DIR / "media"
 LOGIN_URL = "login"                              # si intenta entrar sin sesión
 LOGIN_REDIRECT_URL = "maintenance:panel"         # tras iniciar sesión
 LOGOUT_REDIRECT_URL = "maintenance:home"         # tras cerrar sesión
+
+
+REST_FRAMEWORK = {
+    # Usa las sesiones de Django, las mismas del login web
+    "DEFAULT_AUTHENTICATION_CLASSES": [
+        "rest_framework.authentication.SessionAuthentication",
+    ],
+    # Seguridad por defecto: nada es accesible sin iniciar sesión.
+    # Los endpoints públicos lo indicarán explícitamente.
+    "DEFAULT_PERMISSION_CLASSES": [
+        "rest_framework.permissions.IsAuthenticated",
+    ],
+    # Los listados se devuelven de 10 en 10
+    "DEFAULT_PAGINATION_CLASS": "rest_framework.pagination.PageNumberPagination",
+    "PAGE_SIZE": 10,
+}
