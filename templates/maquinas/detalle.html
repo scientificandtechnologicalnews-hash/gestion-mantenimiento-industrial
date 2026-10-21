@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>{{ maquina.nombre }} <small>[{{ maquina.codigo }}]</small></h1>
+    <p>{{ maquina.get_categoria_display }} · {{ maquina.ubicacion }}</p>
+    <p>{{ maquina.descripcion }}</p>
+
+    {% if perms.maintenance.add_incidencia %}
+        <!-- Pasamos el id de la máquina para que el formulario la preseleccione -->
+        <p><a href="{% url 'maintenance:incidencia_crear' %}?maquina={{ maquina.pk }}">+ Registrar incidencia en esta máquina</a></p>
+    {% endif %}
+
+    <h2>Documentación técnica</h2>
+    <form method="get">
+        <input type="text" name="q" value="{{ q }}" placeholder="Buscar en los documentos">
+        <select name="tipo">
+            <option value="">Todos los tipos</option>
+            {% for valor, texto in tipos %}
+                <option value="{{ valor }}" {% if valor == tipo %}selected{% endif %}>{{ texto }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Buscar</button>
+    </form>
+
+    <ul>
+        {% for d in documentos %}
+            <li>
+                <a href="{% url 'maintenance:documento_detalle' d.pk %}">{{ d.titulo }}</a>
+                ({{ d.get_tipo_display }})
+            </li>
+        {% empty %}
+            <li>No hay documentos que coincidan.</li>
+        {% endfor %}
+    </ul>
+
+    <h2>Últimas incidencias</h2>
+    <ul>
+        {% for i in incidencias %}
+            <li>{{ i.fecha_creacion|date:"d/m/Y" }} · {{ i.titulo }} · {{ i.get_estado_display }}</li>
+        {% empty %}
+            <li>Sin incidencias registradas.</li>
+        {% endfor %}
+    </ul>
+{% endblock %}

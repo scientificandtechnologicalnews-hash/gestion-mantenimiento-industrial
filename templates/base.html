@@ -7,12 +7,14 @@
 <body>
     <nav>
         <a href="{% url 'maintenance:home' %}">Inicio</a>
+        <a href="{% url 'maintenance:maquina_lista' %}">Máquinas</a>
 
         {% if user.is_authenticated %}
+            {% if perms.maintenance.view_incidencia %}
+                <a href="{% url 'maintenance:incidencia_lista' %}">Incidencias</a>
+            {% endif %}
             <a href="{% url 'maintenance:panel' %}">Mi panel</a>
             <span>Hola, {{ user.username }}</span>
-
-            <!-- Cerrar sesión debe ser POST (más seguro), por eso usa un formulario -->
             <form method="post" action="{% url 'logout' %}" style="display:inline">
                 {% csrf_token %}
                 <button type="submit">Salir</button>
@@ -22,6 +24,15 @@
         {% endif %}
     </nav>
     <hr>
+
+    <!-- Mensajes flash: los que creamos con messages.success(...) en las vistas -->
+    {% if messages %}
+        <ul>
+            {% for message in messages %}
+                <li><strong>{{ message }}</strong></li>
+            {% endfor %}
+        </ul>
+    {% endif %}
 
     {% block content %}{% endblock %}
 </body>

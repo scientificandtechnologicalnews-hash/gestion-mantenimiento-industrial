@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Máquinas</h1>
+
+    <!-- method="get": los filtros viajan en la URL, así se pueden compartir enlaces -->
+    <form method="get">
+        <input type="text" name="q" value="{{ q }}" placeholder="Buscar por nombre o código">
+        <select name="categoria">
+            <option value="">Todas las categorías</option>
+            {% for valor, texto in categorias %}
+                <option value="{{ valor }}" {% if valor == categoria %}selected{% endif %}>{{ texto }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Filtrar</button>
+    </form>
+
+    <table border="1" cellpadding="6">
+        <tr><th>Código</th><th>Nombre</th><th>Categoría</th><th>Ubicación</th></tr>
+        {% for m in page %}
+            <tr>
+                <td>{{ m.codigo }}</td>
+                <td><a href="{% url 'maintenance:maquina_detalle' m.pk %}">{{ m.nombre }}</a></td>
+                <td>{{ m.get_categoria_display }}</td>
+                <td>{{ m.ubicacion }}</td>
+            </tr>
+        {% empty %}
+            <tr><td colspan="4">No hay máquinas que coincidan.</td></tr>
+        {% endfor %}
+    </table>
+
+    <!-- Paginación: conserva los filtros al cambiar de página -->
+    <p>
+        {% if page.has_previous %}
+            <a href="?page={{ page.previous_page_number }}&q={{ q }}&categoria={{ categoria }}">← Anterior</a>
+        {% endif %}
+        Página {{ page.number }} de {{ page.paginator.num_pages }}
+        {% if page.has_next %}
+            <a href="?page={{ page.next_page_number }}&q={{ q }}&categoria={{ categoria }}">Siguiente →</a>
+        {% endif %}
+    </p>
+{% endblock %}
