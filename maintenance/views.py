@@ -9,6 +9,9 @@ from django.utils import timezone
 from .forms import IncidenciaCrearForm, IncidenciaEditarForm
 from .models import Documento, Incidencia, Maquina
 
+from django.conf import settings
+from django.http import Http404, HttpResponse
+
 
 def es_administrador(user):
     """True si el usuario es superusuario o pertenece al grupo Administrador."""
@@ -159,5 +162,14 @@ def incidencia_editar(request, pk):
         return redirect("maintenance:incidencia_lista")
 
     return render(request, "incidencias/form.html", {"form": form, "titulo": "Editar incidencia"})
+
+
+def app_react(request):
+    """Entrega la página principal de React ya compilada.
+    La página en sí es pública; los datos que pide a la API siguen protegidos por permisos."""
+    index = settings.BASE_DIR / "frontend" / "dist" / "index.html"
+    if not index.exists():
+        raise Http404("React no está compilado: ejecuta 'npm run build' en la carpeta frontend.")
+    return HttpResponse(index.read_text(encoding="utf-8"))
 
 # Create your views here.

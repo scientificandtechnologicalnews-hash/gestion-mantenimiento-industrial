@@ -8,3 +8,4 @@ media/
 staticfiles/
 .vscode/
 node_modules/
+frontend/dist/

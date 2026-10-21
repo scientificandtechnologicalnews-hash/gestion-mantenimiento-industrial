@@ -45,6 +45,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -165,3 +166,18 @@ CSRF_TRUSTED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
 ]
+
+# --- Archivos estáticos y aplicación React ---
+
+# Carpeta donde "collectstatic" reúne todos los estáticos (admin, React...)
+# para producción. Ya está en .gitignore.
+STATIC_ROOT = BASE_DIR / "staticfiles"
+
+# Le decimos a Django que los archivos compilados de React viven en
+# frontend/dist y los publique bajo /static/app/
+STATICFILES_DIRS = [("app", BASE_DIR / "frontend" / "dist")]
+
+STORAGES = {
+    "default": {"BACKEND": "django.core.files.storage.FileSystemStorage"},
+    "staticfiles": {"BACKEND": "whitenoise.storage.CompressedStaticFilesStorage"},
+}

@@ -13,6 +13,11 @@
             {% if perms.maintenance.view_incidencia %}
                 <a href="{% url 'maintenance:incidencia_lista' %}">Incidencias</a>
             {% endif %}
+            
+            {% if perms.maintenance.view_documento %}
+                <a href="{% url 'maintenance:app' %}">Buscador técnico (React)</a>
+            {% endif %}
+
             <a href="{% url 'maintenance:panel' %}">Mi panel</a>
             <span>Hola, {{ user.username }}</span>
             <form method="post" action="{% url 'logout' %}" style="display:inline">
