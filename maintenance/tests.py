@@ -4,6 +4,12 @@ from rest_framework.test import APITestCase
 
 from .models import Documento, Maquina
 
+import json
+import tempfile
+from pathlib import Path
+
+from django.test import TestCase
+
 
 class ApiTests(APITestCase):
     @classmethod
@@ -56,5 +62,27 @@ class ApiTests(APITestCase):
         self.assertEqual(self.client.get("/api/estadisticas/").status_code, 403)
         self.client.force_login(self.tecnico)
         self.assertEqual(self.client.get("/api/estadisticas/").status_code, 200)
+
+
+class ImportacionTests(TestCase):
+    def test_importar_es_idempotente(self):
+        datos = [{
+            "titulo": "fp_material: Fallo X: PLC Test",
+            "tipo": "Material FP",
+            "contenido_extraido": "texto",
+            "archivo": "",
+            "fuente_url": "",
+            "maquina": "PLC Test [PLC-SIE-001]",
+        }]
+        # Carpeta temporal que se borra sola al salir del bloque "with"
+        with tempfile.TemporaryDirectory() as tmp:
+            ruta = Path(tmp) / "datos.json"
+            ruta.write_text(json.dumps(datos), encoding="utf-8")
+            call_command("importar_documentos", str(ruta))
+            call_command("importar_documentos", str(ruta))  # segunda vez: no duplica
+
+        self.assertEqual(Maquina.objects.count(), 1)
+        self.assertEqual(Documento.objects.count(), 1)
+        self.assertEqual(Documento.objects.get().tipo, "FP")
 
 # Create your tests here.

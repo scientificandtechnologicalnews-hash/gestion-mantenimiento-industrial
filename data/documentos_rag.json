@@ -1,0 +1,1602 @@
+[
+  {
+    "titulo": "fp_material: Caída de presión en la red neumática: Compresor instalación neumática",
+    "tipo": "Material FP",
+    "contenido_extraido": "Si la presión de red baja de 6 bar con el compresor en marcha, revisar filtro de aspiración, fugas en acoplamientos y válvula de admisión. Comprobar el presostato y el tiempo de carga del depósito.",
+    "archivo": "manuales/CompresorinstalacionneumaticaCOM-ATL-001-01.md",
+    "fuente_url": "",
+    "maquina": "Compresor instalación neumática [COM-ATL-001]"
+  },
+  {
+    "titulo": "fp_material: Sobrecalentamiento del compresor: Compresor instalación neumática",
+    "tipo": "Material FP",
+    "contenido_extraido": "Temperatura de aceite por encima de 95 °C: verificar nivel de aceite, limpieza del radiador, ventilador de refrigeración y ventilación de la sala. Parar y dejar enfriar antes de reiniciar.",
+    "archivo": "manuales/CompresorinstalacionneumaticaCOM-ATL-001-02.md",
+    "fuente_url": "",
+    "maquina": "Compresor instalación neumática [COM-ATL-001]"
+  },
+  {
+    "titulo": "fp_material: Arranques y paradas frecuentes (ciclado corto): Compresor instalación neumática",
+    "tipo": "Material FP",
+    "contenido_extraido": "Puede deberse a depósito insuficiente, diferencial del presostato mal ajustado o fugas. Medir el tiempo entre ciclos y ajustar el diferencial a 0,7-1 bar.",
+    "archivo": "manuales/CompresorinstalacionneumaticaCOM-ATL-001-03.md",
+    "fuente_url": "",
+    "maquina": "Compresor instalación neumática [COM-ATL-001]"
+  },
+  {
+    "titulo": "fp_material: Agua o aceite en las líneas de aire: Compresor instalación neumática",
+    "tipo": "Material FP",
+    "contenido_extraido": "Revisar purgador automático, secador frigorífico y filtro coalescente. Sustituir elemento filtrante si la caída de presión supera 0,5 bar.",
+    "archivo": "manuales/CompresorinstalacionneumaticaCOM-ATL-001-04.md",
+    "fuente_url": "",
+    "maquina": "Compresor instalación neumática [COM-ATL-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Plan de mantenimiento preventivo del compresor: Compresor instalación neumática",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Cada 500 h: revisar filtro de aire y purgas. Cada 2000 h: cambio de aceite y filtro de aceite. Cada 4000 h: separador de aceite y correas. Registrar horas en el CMMS.",
+    "archivo": "manuales/CompresorinstalacionneumaticaCOM-ATL-001-05.md",
+    "fuente_url": "",
+    "maquina": "Compresor instalación neumática [COM-ATL-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Parámetros de funcionamiento y presiones de consigna: Compresor instalación neumática",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Presión de carga 7,5 bar, descarga 8,5 bar, presión máxima de seguridad 10 bar. Temperatura normal de trabajo entre 70 y 90 °C.",
+    "archivo": "manuales/CompresorinstalacionneumaticaCOM-ATL-001-06.md",
+    "fuente_url": "",
+    "maquina": "Compresor instalación neumática [COM-ATL-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Procedimiento de bloqueo y purga (LOTO) del compresor: Compresor instalación neumática",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Desconectar y bloquear el seccionador, vaciar el depósito hasta 0 bar, cerrar la válvula de salida y verificar ausencia de presión residual antes de intervenir.",
+    "archivo": "manuales/CompresorinstalacionneumaticaCOM-ATL-001-07.md",
+    "fuente_url": "",
+    "maquina": "Compresor instalación neumática [COM-ATL-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de potencia y arranque estrella-triángulo del motor: Compresor instalación neumática",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Contactores KM1 (línea), KM2 (triángulo) y KM3 (estrella) con relé térmico F1. Temporizador de cambio a 8 s. Protección magnetotérmica Q1.",
+    "archivo": "manuales/CompresorinstalacionneumaticaCOM-ATL-001-08.md",
+    "fuente_url": "",
+    "maquina": "Compresor instalación neumática [COM-ATL-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Circuito de mando y paradas de emergencia: Compresor instalación neumática",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Cadena de seguridad con seta de emergencia, presostato de seguridad y termostato de aceite en serie con la bobina del contactor principal.",
+    "archivo": "manuales/CompresorinstalacionneumaticaCOM-ATL-001-09.md",
+    "fuente_url": "",
+    "maquina": "Compresor instalación neumática [COM-ATL-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Cableado de sensores de presión y temperatura: Compresor instalación neumática",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Transmisor de presión 4-20 mA y sonda PT100 conectados a las entradas analógicas del controlador. Alimentación 24 V DC protegida con fusible de 2 A.",
+    "archivo": "manuales/CompresorinstalacionneumaticaCOM-ATL-001-10.md",
+    "fuente_url": "",
+    "maquina": "Compresor instalación neumática [COM-ATL-001]"
+  },
+  {
+    "titulo": "fp_material: Lecturas incorrectas del sistema de visión artificial: Sistema de visión artificial",
+    "tipo": "Material FP",
+    "contenido_extraido": "Si la cámara devuelve resultados erróneos, comprobar limpieza de la lente, iluminación, enfoque y que el trabajo cargado coincide con el producto. Reentrenar la herramienta si cambió el embalaje.",
+    "archivo": "manuales/SistemadevisionartificialVIS-KEY-001-01.md",
+    "fuente_url": "",
+    "maquina": "Sistema de visión artificial [VIS-KEY-001]"
+  },
+  {
+    "titulo": "fp_material: Pérdida de comunicación con la cámara: Sistema de visión artificial",
+    "tipo": "Material FP",
+    "contenido_extraido": "Revisar cable Ethernet, dirección IP y puerto del switch. Verificar que el PLC y la cámara estén en la misma subred y reiniciar el sensor si persiste.",
+    "archivo": "manuales/SistemadevisionartificialVIS-KEY-001-02.md",
+    "fuente_url": "",
+    "maquina": "Sistema de visión artificial [VIS-KEY-001]"
+  },
+  {
+    "titulo": "fp_material: Imágenes desenfocadas o con reflejos: Sistema de visión artificial",
+    "tipo": "Material FP",
+    "contenido_extraido": "Reajustar la distancia focal, el diafragma y el ángulo de la luz. Usar filtros polarizadores si hay superficies brillantes.",
+    "archivo": "manuales/SistemadevisionartificialVIS-KEY-001-03.md",
+    "fuente_url": "",
+    "maquina": "Sistema de visión artificial [VIS-KEY-001]"
+  },
+  {
+    "titulo": "fp_material: Tiempo de inspección demasiado alto: Sistema de visión artificial",
+    "tipo": "Material FP",
+    "contenido_extraido": "Reducir la región de interés (ROI), bajar la resolución o simplificar las herramientas. Comprobar la carga de CPU del controlador de visión.",
+    "archivo": "manuales/SistemadevisionartificialVIS-KEY-001-04.md",
+    "fuente_url": "",
+    "maquina": "Sistema de visión artificial [VIS-KEY-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Configuración del trigger y sincronización con el transportador: Sistema de visión artificial",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "El disparo se recibe por entrada digital desde el sensor de producto con un retardo configurable. Ajustar el delay según la velocidad de la cinta.",
+    "archivo": "manuales/SistemadevisionartificialVIS-KEY-001-05.md",
+    "fuente_url": "",
+    "maquina": "Sistema de visión artificial [VIS-KEY-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Procedimiento de calibración y de copia de seguridad de trabajos: Sistema de visión artificial",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Calibrar con la plantilla de puntos en mm/píxel. Exportar los trabajos tras cada cambio y guardarlos con fecha y versión.",
+    "archivo": "manuales/SistemadevisionartificialVIS-KEY-001-06.md",
+    "fuente_url": "",
+    "maquina": "Sistema de visión artificial [VIS-KEY-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Especificaciones de iluminación y óptica: Sistema de visión artificial",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Iluminación LED anular 24 V, lente 12 mm, distancia de trabajo 300 mm. Sustituir el módulo LED tras 30 000 h.",
+    "archivo": "manuales/SistemadevisionartificialVIS-KEY-001-07.md",
+    "fuente_url": "",
+    "maquina": "Sistema de visión artificial [VIS-KEY-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de alimentación y E/S de la cámara: Sistema de visión artificial",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Alimentación 24 V DC en pines 1 y 2 del conector M12. Salidas OK/NOK y Ready hacia el PLC. Entrada de trigger en pin 5.",
+    "archivo": "manuales/SistemadevisionartificialVIS-KEY-001-08.md",
+    "fuente_url": "",
+    "maquina": "Sistema de visión artificial [VIS-KEY-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Conexión Ethernet industrial con el PLC: Sistema de visión artificial",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Cable M12 D-coded a switch gestionado. Perfil PROFINET/EtherNet-IP configurado en el controlador de visión.",
+    "archivo": "manuales/SistemadevisionartificialVIS-KEY-001-09.md",
+    "fuente_url": "",
+    "maquina": "Sistema de visión artificial [VIS-KEY-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Circuito de control del iluminador estroboscópico: Sistema de visión artificial",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Salida de strobe del controlador hacia el driver de luz LED con aislamiento óptico y fusible de protección.",
+    "archivo": "manuales/SistemadevisionartificialVIS-KEY-001-10.md",
+    "fuente_url": "",
+    "maquina": "Sistema de visión artificial [VIS-KEY-001]"
+  },
+  {
+    "titulo": "fp_material: La puerta no abre ni cierra: Puerta automática Zona Expedición",
+    "tipo": "Material FP",
+    "contenido_extraido": "Comprobar alimentación del cuadro, paro de emergencia, final de carrera y señal del PLC. Revisar el fallo mostrado en el display del operador.",
+    "archivo": "manuales/PuertaautomaticaZonaExpedicionPUE-HOR-001-01.md",
+    "fuente_url": "",
+    "maquina": "Puerta automática Zona Expedición [PUE-HOR-001]"
+  },
+  {
+    "titulo": "fp_material: La puerta se detiene en mitad del recorrido: Puerta automática Zona Expedición",
+    "tipo": "Material FP",
+    "contenido_extraido": "Normalmente por obstáculo detectado, fotocélula sucia o desajuste de la banda de seguridad. Limpiar y reajustar el recorrido con el procedimiento de aprendizaje.",
+    "archivo": "manuales/PuertaautomaticaZonaExpedicionPUE-HOR-001-02.md",
+    "fuente_url": "",
+    "maquina": "Puerta automática Zona Expedición [PUE-HOR-001]"
+  },
+  {
+    "titulo": "fp_material: Ruido anormal o vibración al moverse: Puerta automática Zona Expedición",
+    "tipo": "Material FP",
+    "contenido_extraido": "Lubricar guías y rodillos, revisar tensión de la correa y estado de los rodamientos. Apretar los anclajes del motor.",
+    "archivo": "manuales/PuertaautomaticaZonaExpedicionPUE-HOR-001-03.md",
+    "fuente_url": "",
+    "maquina": "Puerta automática Zona Expedición [PUE-HOR-001]"
+  },
+  {
+    "titulo": "fp_material: La puerta no reconoce la señal del radar o sensor de presencia: Puerta automática Zona Expedición",
+    "tipo": "Material FP",
+    "contenido_extraido": "Verificar alimentación del sensor, sensibilidad y orientación. Probar el contacto de salida con el multímetro.",
+    "archivo": "manuales/PuertaautomaticaZonaExpedicionPUE-HOR-001-04.md",
+    "fuente_url": "",
+    "maquina": "Puerta automática Zona Expedición [PUE-HOR-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Ajuste de velocidad y tiempos de apertura: Puerta automática Zona Expedición",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Velocidad de apertura 0,8 m/s, cierre 0,5 m/s, tiempo de mantenimiento abierta 5 s. Parámetros accesibles desde el cuadro de control.",
+    "archivo": "manuales/PuertaautomaticaZonaExpedicionPUE-HOR-001-05.md",
+    "fuente_url": "",
+    "maquina": "Puerta automática Zona Expedición [PUE-HOR-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Revisión de seguridad según normativa: Puerta automática Zona Expedición",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Comprobar cada seis meses la fuerza de cierre, las fotocélulas y el borde sensible. Registrar los resultados en el libro de mantenimiento.",
+    "archivo": "manuales/PuertaautomaticaZonaExpedicionPUE-HOR-001-06.md",
+    "fuente_url": "",
+    "maquina": "Puerta automática Zona Expedición [PUE-HOR-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Mantenimiento preventivo mecánico: Puerta automática Zona Expedición",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Lubricar guías cada 3 meses, revisar correa y muelles de equilibrado cada 6 meses y sustituir las ruedas guía a los 2 años.",
+    "archivo": "manuales/PuertaautomaticaZonaExpedicionPUE-HOR-001-07.md",
+    "fuente_url": "",
+    "maquina": "Puerta automática Zona Expedición [PUE-HOR-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema del cuadro de control y motor: Puerta automática Zona Expedición",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Variador de puerta alimentado a 230 V, motor trifásico, entradas para pulsadores, radar y fotocélulas.",
+    "archivo": "manuales/PuertaautomaticaZonaExpedicionPUE-HOR-001-08.md",
+    "fuente_url": "",
+    "maquina": "Puerta automática Zona Expedición [PUE-HOR-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Cadena de seguridad de fotocélulas y borde sensible: Puerta automática Zona Expedición",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Contactos NC en serie con test dinámico. La interrupción detiene y reabre la puerta.",
+    "archivo": "manuales/PuertaautomaticaZonaExpedicionPUE-HOR-001-09.md",
+    "fuente_url": "",
+    "maquina": "Puerta automática Zona Expedición [PUE-HOR-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Interfaz de señales con el PLC de la línea: Puerta automática Zona Expedición",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Salidas de relé para abierta, cerrada y fallo; entradas digitales de orden de abrir y cerrar a 24 V DC.",
+    "archivo": "manuales/PuertaautomaticaZonaExpedicionPUE-HOR-001-10.md",
+    "fuente_url": "",
+    "maquina": "Puerta automática Zona Expedición [PUE-HOR-001]"
+  },
+  {
+    "titulo": "fp_material: Error de lectura del código en la estación de picking: Estación de picking automática",
+    "tipo": "Material FP",
+    "contenido_extraido": "Limpiar la ventana del lector, comprobar la calidad de la etiqueta y la distancia de lectura. Verificar la correcta asignación del artículo en el WMS.",
+    "archivo": "manuales/EstaciondepickingautomaticaPICK-AUT-001-01.md",
+    "fuente_url": "",
+    "maquina": "Estación de picking automática [PICK-AUT-001]"
+  },
+  {
+    "titulo": "fp_material: El pick-to-light no se enciende: Estación de picking automática",
+    "tipo": "Material FP",
+    "contenido_extraido": "Revisar alimentación del bus, direcciones de los módulos y la comunicación con el controlador. Sustituir el módulo defectuoso.",
+    "archivo": "manuales/EstaciondepickingautomaticaPICK-AUT-001-02.md",
+    "fuente_url": "",
+    "maquina": "Estación de picking automática [PICK-AUT-001]"
+  },
+  {
+    "titulo": "fp_material: Cajas atascadas en la entrada de la estación: Estación de picking automática",
+    "tipo": "Material FP",
+    "contenido_extraido": "Retirar la caja, revisar el sensor de presencia y la alineación de las guías laterales. Reiniciar la secuencia desde el HMI.",
+    "archivo": "manuales/EstaciondepickingautomaticaPICK-AUT-001-03.md",
+    "fuente_url": "",
+    "maquina": "Estación de picking automática [PICK-AUT-001]"
+  },
+  {
+    "titulo": "fp_material: Discrepancias de stock tras el picking: Estación de picking automática",
+    "tipo": "Material FP",
+    "contenido_extraido": "Confirmar que cada línea se valida con escaneo. Revisar las confirmaciones pendientes en el WMS y sincronizar.",
+    "archivo": "manuales/EstaciondepickingautomaticaPICK-AUT-001-04.md",
+    "fuente_url": "",
+    "maquina": "Estación de picking automática [PICK-AUT-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Flujo de operación de la estación: Estación de picking automática",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "El operador recibe el contenedor, el sistema indica el artículo y la cantidad, se confirma y el contenedor se libera hacia la salida.",
+    "archivo": "manuales/EstaciondepickingautomaticaPICK-AUT-001-05.md",
+    "fuente_url": "",
+    "maquina": "Estación de picking automática [PICK-AUT-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Procedimiento de arranque y parada: Estación de picking automática",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Verificar paros de emergencia, rearmar el circuito de seguridad, iniciar sesión en el HMI y lanzar el modo automático.",
+    "archivo": "manuales/EstaciondepickingautomaticaPICK-AUT-001-06.md",
+    "fuente_url": "",
+    "maquina": "Estación de picking automática [PICK-AUT-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Mantenimiento de elementos de la estación: Estación de picking automática",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Limpiar semanalmente sensores y pantallas, revisar mensualmente los pulsadores y cada 6 meses los transportadores de acceso.",
+    "archivo": "manuales/EstaciondepickingautomaticaPICK-AUT-001-07.md",
+    "fuente_url": "",
+    "maquina": "Estación de picking automática [PICK-AUT-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de alimentación 24 V y protecciones: Estación de picking automática",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Fuente conmutada 24 V DC 10 A, magnetotérmicos por grupo y distribución a sensores, módulos de luz y pantallas.",
+    "archivo": "manuales/EstaciondepickingautomaticaPICK-AUT-001-08.md",
+    "fuente_url": "",
+    "maquina": "Estación de picking automática [PICK-AUT-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Cableado del bus de campo de los módulos pick-to-light: Estación de picking automática",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Bus de dos hilos con resistencia de terminación en el último módulo. Blindaje conectado a tierra en un solo extremo.",
+    "archivo": "manuales/EstaciondepickingautomaticaPICK-AUT-001-09.md",
+    "fuente_url": "",
+    "maquina": "Estación de picking automática [PICK-AUT-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de seguridad con barrera de luz: Estación de picking automática",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Barrera de seguridad categoría 4 conectada al relé de seguridad. La interrupción inhibe el movimiento del contenedor.",
+    "archivo": "manuales/EstaciondepickingautomaticaPICK-AUT-001-10.md",
+    "fuente_url": "",
+    "maquina": "Estación de picking automática [PICK-AUT-001]"
+  },
+  {
+    "titulo": "fp_material: Fallo por sobreintensidad en el variador: Variador Transportador Línea 1",
+    "tipo": "Material FP",
+    "contenido_extraido": "Revisar el estado del motor, el cableado de potencia y posibles bloqueos mecánicos. Ajustar la rampa de aceleración si el fallo es en arranque.",
+    "archivo": "manuales/VariadorTransportadorLinea1VAR-SIE-001-01.md",
+    "fuente_url": "",
+    "maquina": "Variador Transportador Línea 1 [VAR-SIE-001]"
+  },
+  {
+    "titulo": "fp_material: Fallo por sobretensión en el bus DC: Variador Transportador Línea 1",
+    "tipo": "Material FP",
+    "contenido_extraido": "Aparece en deceleraciones rápidas. Aumentar el tiempo de rampa o instalar resistencia de frenado.",
+    "archivo": "manuales/VariadorTransportadorLinea1VAR-SIE-001-02.md",
+    "fuente_url": "",
+    "maquina": "Variador Transportador Línea 1 [VAR-SIE-001]"
+  },
+  {
+    "titulo": "fp_material: Sobretemperatura del variador: Variador Transportador Línea 1",
+    "tipo": "Material FP",
+    "contenido_extraido": "Limpiar disipador y ventiladores, comprobar la temperatura del armario y la ventilación. Verificar que la frecuencia de conmutación no sea excesiva.",
+    "archivo": "manuales/VariadorTransportadorLinea1VAR-SIE-001-03.md",
+    "fuente_url": "",
+    "maquina": "Variador Transportador Línea 1 [VAR-SIE-001]"
+  },
+  {
+    "titulo": "fp_material: El variador no responde al PLC: Variador Transportador Línea 1",
+    "tipo": "Material FP",
+    "contenido_extraido": "Comprobar la fuente de consigna, la configuración de la comunicación y el cable del bus. Revisar el parámetro de control remoto o local.",
+    "archivo": "manuales/VariadorTransportadorLinea1VAR-SIE-001-04.md",
+    "fuente_url": "",
+    "maquina": "Variador Transportador Línea 1 [VAR-SIE-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Parámetros básicos de puesta en marcha: Variador Transportador Línea 1",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Introducir datos de placa del motor, rampas de 3 s, frecuencia máxima 50 Hz y límite de intensidad al 120 % de la nominal.",
+    "archivo": "manuales/VariadorTransportadorLinea1VAR-SIE-001-05.md",
+    "fuente_url": "",
+    "maquina": "Variador Transportador Línea 1 [VAR-SIE-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Listado de códigos de fallo y acciones: Variador Transportador Línea 1",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Tabla de fallos con causa probable y acción: sobreintensidad, sobretensión, subtensión, sobrecarga del motor y fallo de comunicación.",
+    "archivo": "manuales/VariadorTransportadorLinea1VAR-SIE-001-06.md",
+    "fuente_url": "",
+    "maquina": "Variador Transportador Línea 1 [VAR-SIE-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Copia de seguridad y restauración de parámetros: Variador Transportador Línea 1",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Exportar los parámetros con el software de puesta en marcha y guardarlos en el repositorio de ingeniería. Restaurar tras la sustitución del equipo.",
+    "archivo": "manuales/VariadorTransportadorLinea1VAR-SIE-001-07.md",
+    "fuente_url": "",
+    "maquina": "Variador Transportador Línea 1 [VAR-SIE-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de potencia del variador: Variador Transportador Línea 1",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Alimentación trifásica 400 V con protección magnetotérmica, filtro de red, variador y salida a motor con cable apantallado.",
+    "archivo": "manuales/VariadorTransportadorLinea1VAR-SIE-001-08.md",
+    "fuente_url": "",
+    "maquina": "Variador Transportador Línea 1 [VAR-SIE-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Cableado de señales de control: Variador Transportador Línea 1",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Entradas digitales de marcha y paro, consigna analógica 0-10 V y relé de fallo hacia el PLC.",
+    "archivo": "manuales/VariadorTransportadorLinea1VAR-SIE-001-09.md",
+    "fuente_url": "",
+    "maquina": "Variador Transportador Línea 1 [VAR-SIE-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Conexión de la resistencia de frenado: Variador Transportador Línea 1",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Resistencia conectada a los bornes de frenado con termostato en serie con la cadena de seguridad.",
+    "archivo": "manuales/VariadorTransportadorLinea1VAR-SIE-001-10.md",
+    "fuente_url": "",
+    "maquina": "Variador Transportador Línea 1 [VAR-SIE-001]"
+  },
+  {
+    "titulo": "fp_material: El motor no arranca o se queda zumbando: Motor transportador Línea 1",
+    "tipo": "Material FP",
+    "contenido_extraido": "Comprobar las tres fases, fusibles y contactor. Desacoplar la carga para descartar bloqueo mecánico o fallo de rodamiento.",
+    "archivo": "manuales/MotortransportadorLinea1MOT-SEW-001-01.md",
+    "fuente_url": "",
+    "maquina": "Motor transportador Línea 1 [MOT-SEW-001]"
+  },
+  {
+    "titulo": "fp_material: Sobrecalentamiento del motor: Motor transportador Línea 1",
+    "tipo": "Material FP",
+    "contenido_extraido": "Revisar la carga, la ventilación y la tensión de alimentación. Medir intensidad y compararla con la placa de características.",
+    "archivo": "manuales/MotortransportadorLinea1MOT-SEW-001-02.md",
+    "fuente_url": "",
+    "maquina": "Motor transportador Línea 1 [MOT-SEW-001]"
+  },
+  {
+    "titulo": "fp_material: Vibraciones y ruido en los rodamientos: Motor transportador Línea 1",
+    "tipo": "Material FP",
+    "contenido_extraido": "Medir la vibración, engrasar según plan y cambiar los rodamientos si el ruido persiste. Comprobar la alineación del acoplamiento.",
+    "archivo": "manuales/MotortransportadorLinea1MOT-SEW-001-03.md",
+    "fuente_url": "",
+    "maquina": "Motor transportador Línea 1 [MOT-SEW-001]"
+  },
+  {
+    "titulo": "fp_material: Fuga de aceite en el motorreductor: Motor transportador Línea 1",
+    "tipo": "Material FP",
+    "contenido_extraido": "Revisar retenes y nivel de aceite, y sustituir los retenes dañados. Verificar la ventilación del reductor.",
+    "archivo": "manuales/MotortransportadorLinea1MOT-SEW-001-04.md",
+    "fuente_url": "",
+    "maquina": "Motor transportador Línea 1 [MOT-SEW-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Datos de placa y características técnicas: Motor transportador Línea 1",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Motorreductor trifásico 400/690 V, 1,5 kW, 1450 rpm, IP55, clase de aislamiento F. Relación de reducción según placa.",
+    "archivo": "manuales/MotortransportadorLinea1MOT-SEW-001-05.md",
+    "fuente_url": "",
+    "maquina": "Motor transportador Línea 1 [MOT-SEW-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Plan de lubricación del reductor: Motor transportador Línea 1",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Cambiar el aceite sintético cada 10 000 h o 3 años. Comprobar nivel cada 3 meses.",
+    "archivo": "manuales/MotortransportadorLinea1MOT-SEW-001-06.md",
+    "fuente_url": "",
+    "maquina": "Motor transportador Línea 1 [MOT-SEW-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Procedimiento de sustitución del motorreductor: Motor transportador Línea 1",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Bloquear energía, desconectar cableado, soltar el anclaje, extraer el eje y montar el nuevo con la alineación correcta.",
+    "archivo": "manuales/MotortransportadorLinea1MOT-SEW-001-07.md",
+    "fuente_url": "",
+    "maquina": "Motor transportador Línea 1 [MOT-SEW-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Conexión de bornes del motor en estrella y triángulo: Motor transportador Línea 1",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Conexión en estrella para 690 V y en triángulo para 400 V. Verificar con la placa de bornes antes de energizar.",
+    "archivo": "manuales/MotortransportadorLinea1MOT-SEW-001-08.md",
+    "fuente_url": "",
+    "maquina": "Motor transportador Línea 1 [MOT-SEW-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Protección y cableado de potencia: Motor transportador Línea 1",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Magnetotérmico, contactor y relé térmico, o variador con cable apantallado conectado a tierra por ambos extremos.",
+    "archivo": "manuales/MotortransportadorLinea1MOT-SEW-001-09.md",
+    "fuente_url": "",
+    "maquina": "Motor transportador Línea 1 [MOT-SEW-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Circuito de la sonda térmica PTC: Motor transportador Línea 1",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Sondas PTC en serie conectadas al relé de disparo. Se dispara a 130 °C.",
+    "archivo": "manuales/MotortransportadorLinea1MOT-SEW-001-10.md",
+    "fuente_url": "",
+    "maquina": "Motor transportador Línea 1 [MOT-SEW-001]"
+  },
+  {
+    "titulo": "fp_material: El sensor no detecta los paquetes: Sensor fotoeléctrico Clasificador",
+    "tipo": "Material FP",
+    "contenido_extraido": "Limpiar la óptica, revisar alineación con el reflector y ajustar la sensibilidad. Verificar la alimentación de 24 V.",
+    "archivo": "manuales/SensorfotoelectricoClasificadorSEN-OMR-002-01.md",
+    "fuente_url": "",
+    "maquina": "Sensor fotoeléctrico Clasificador [SEN-OMR-002]"
+  },
+  {
+    "titulo": "fp_material: Detecciones falsas o intermitentes: Sensor fotoeléctrico Clasificador",
+    "tipo": "Material FP",
+    "contenido_extraido": "Revisar interferencias, reflejos, polvo y conexiones sueltas. Ajustar el umbral y el filtro de tiempo.",
+    "archivo": "manuales/SensorfotoelectricoClasificadorSEN-OMR-002-02.md",
+    "fuente_url": "",
+    "maquina": "Sensor fotoeléctrico Clasificador [SEN-OMR-002]"
+  },
+  {
+    "titulo": "fp_material: El sensor queda siempre activo: Sensor fotoeléctrico Clasificador",
+    "tipo": "Material FP",
+    "contenido_extraido": "Comprobar contaminación del lente, ajuste de sensibilidad excesivo o salida defectuosa. Probar con la cinta vacía.",
+    "archivo": "manuales/SensorfotoelectricoClasificadorSEN-OMR-002-03.md",
+    "fuente_url": "",
+    "maquina": "Sensor fotoeléctrico Clasificador [SEN-OMR-002]"
+  },
+  {
+    "titulo": "fp_material: Diferencias de temporización en la expulsión de paquetes: Sensor fotoeléctrico Clasificador",
+    "tipo": "Material FP",
+    "contenido_extraido": "Verificar la posición del sensor respecto al desviador y recalcular el retardo en el PLC según la velocidad.",
+    "archivo": "manuales/SensorfotoelectricoClasificadorSEN-OMR-002-04.md",
+    "fuente_url": "",
+    "maquina": "Sensor fotoeléctrico Clasificador [SEN-OMR-002]"
+  },
+  {
+    "titulo": "manual_tecnico: Ajuste de distancia y sensibilidad: Sensor fotoeléctrico Clasificador",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Rango de detección de 0,1 a 4 m. Ajustar con el potenciómetro hasta que el LED de estabilidad esté activo.",
+    "archivo": "manuales/SensorfotoelectricoClasificadorSEN-OMR-002-05.md",
+    "fuente_url": "",
+    "maquina": "Sensor fotoeléctrico Clasificador [SEN-OMR-002]"
+  },
+  {
+    "titulo": "manual_tecnico: Mantenimiento y limpieza periódica: Sensor fotoeléctrico Clasificador",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Limpiar la lente cada mes con un paño suave. Revisar fijación y cableado cada 6 meses.",
+    "archivo": "manuales/SensorfotoelectricoClasificadorSEN-OMR-002-06.md",
+    "fuente_url": "",
+    "maquina": "Sensor fotoeléctrico Clasificador [SEN-OMR-002]"
+  },
+  {
+    "titulo": "manual_tecnico: Especificaciones técnicas del sensor: Sensor fotoeléctrico Clasificador",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Alimentación 10-30 V DC, salida PNP, tiempo de respuesta 1 ms, protección IP67, conector M12.",
+    "archivo": "manuales/SensorfotoelectricoClasificadorSEN-OMR-002-07.md",
+    "fuente_url": "",
+    "maquina": "Sensor fotoeléctrico Clasificador [SEN-OMR-002]"
+  },
+  {
+    "titulo": "esquema_electrico: Conexionado M12 de 4 pines: Sensor fotoeléctrico Clasificador",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Pin 1 marrón +24 V, pin 3 azul 0 V, pin 4 negro salida, pin 2 blanco entrada de aprendizaje.",
+    "archivo": "manuales/SensorfotoelectricoClasificadorSEN-OMR-002-08.md",
+    "fuente_url": "",
+    "maquina": "Sensor fotoeléctrico Clasificador [SEN-OMR-002]"
+  },
+  {
+    "titulo": "esquema_electrico: Conexión a entrada digital del PLC: Sensor fotoeléctrico Clasificador",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Salida PNP conectada a la entrada de 24 V del PLC del clasificador con común a 0 V.",
+    "archivo": "manuales/SensorfotoelectricoClasificadorSEN-OMR-002-09.md",
+    "fuente_url": "",
+    "maquina": "Sensor fotoeléctrico Clasificador [SEN-OMR-002]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de alimentación compartida de sensores: Sensor fotoeléctrico Clasificador",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Distribución 24 V DC con protección por fusible y borneras de reparto en el armario del clasificador.",
+    "archivo": "manuales/SensorfotoelectricoClasificadorSEN-OMR-002-10.md",
+    "fuente_url": "",
+    "maquina": "Sensor fotoeléctrico Clasificador [SEN-OMR-002]"
+  },
+  {
+    "titulo": "fp_material: El sensor de entrada no detecta cajas oscuras: Sensor fotoeléctrico Entrada",
+    "tipo": "Material FP",
+    "contenido_extraido": "Aumentar la sensibilidad, cambiar a modo de supresión de fondo o a un sensor de mayor contraste. Limpiar la lente.",
+    "archivo": "manuales/SensorfotoelectricoEntradaSEN-SIC-001-01.md",
+    "fuente_url": "",
+    "maquina": "Sensor fotoeléctrico Entrada [SEN-SIC-001]"
+  },
+  {
+    "titulo": "fp_material: Conteo de cajas incorrecto en la entrada: Sensor fotoeléctrico Entrada",
+    "tipo": "Material FP",
+    "contenido_extraido": "Revisar la separación entre cajas, la posición del sensor y el filtro de tiempo. Verificar doble detección por brillos.",
+    "archivo": "manuales/SensorfotoelectricoEntradaSEN-SIC-001-02.md",
+    "fuente_url": "",
+    "maquina": "Sensor fotoeléctrico Entrada [SEN-SIC-001]"
+  },
+  {
+    "titulo": "fp_material: El sensor pierde la señal tras vibraciones: Sensor fotoeléctrico Entrada",
+    "tipo": "Material FP",
+    "contenido_extraido": "Reapretar soportes, comprobar el conector M12 y utilizar fijaciones antivibración.",
+    "archivo": "manuales/SensorfotoelectricoEntradaSEN-SIC-001-03.md",
+    "fuente_url": "",
+    "maquina": "Sensor fotoeléctrico Entrada [SEN-SIC-001]"
+  },
+  {
+    "titulo": "fp_material: Sensor no se alimenta: Sensor fotoeléctrico Entrada",
+    "tipo": "Material FP",
+    "contenido_extraido": "Medir 24 V en bornes, revisar el fusible y el cable. Sustituir el sensor si la alimentación es correcta.",
+    "archivo": "manuales/SensorfotoelectricoEntradaSEN-SIC-001-04.md",
+    "fuente_url": "",
+    "maquina": "Sensor fotoeléctrico Entrada [SEN-SIC-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Posicionamiento y alineación del sensor: Sensor fotoeléctrico Entrada",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Montar el sensor a 20 mm del producto, perpendicular a la dirección de avance. Alinear con el LED visible.",
+    "archivo": "manuales/SensorfotoelectricoEntradaSEN-SIC-001-05.md",
+    "fuente_url": "",
+    "maquina": "Sensor fotoeléctrico Entrada [SEN-SIC-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Datos técnicos y límites de funcionamiento: Sensor fotoeléctrico Entrada",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Alcance 1 m, temperatura de trabajo -10 a 55 °C, IP67, frecuencia de conmutación 500 Hz.",
+    "archivo": "manuales/SensorfotoelectricoEntradaSEN-SIC-001-06.md",
+    "fuente_url": "",
+    "maquina": "Sensor fotoeléctrico Entrada [SEN-SIC-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Procedimiento de sustitución del sensor: Sensor fotoeléctrico Entrada",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Desconectar, retirar el soporte, montar el nuevo en la misma posición y comprobar el LED de estado antes de volver a producir.",
+    "archivo": "manuales/SensorfotoelectricoEntradaSEN-SIC-001-07.md",
+    "fuente_url": "",
+    "maquina": "Sensor fotoeléctrico Entrada [SEN-SIC-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de conexión PNP/NPN: Sensor fotoeléctrico Entrada",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Verificar el tipo de salida. En PNP la carga se conecta entre la salida y 0 V.",
+    "archivo": "manuales/SensorfotoelectricoEntradaSEN-SIC-001-08.md",
+    "fuente_url": "",
+    "maquina": "Sensor fotoeléctrico Entrada [SEN-SIC-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Cableado hacia la entrada del PLC de la línea: Sensor fotoeléctrico Entrada",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Cable apantallado separado de potencia, longitud inferior a 30 m. Entrada configurada con filtro de 1 ms.",
+    "archivo": "manuales/SensorfotoelectricoEntradaSEN-SIC-001-09.md",
+    "fuente_url": "",
+    "maquina": "Sensor fotoeléctrico Entrada [SEN-SIC-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Distribución de 24 V en la zona de entrada: Sensor fotoeléctrico Entrada",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Fuente de alimentación con protección magnetotérmica y bornes numerados X1 a X10.",
+    "archivo": "manuales/SensorfotoelectricoEntradaSEN-SIC-001-10.md",
+    "fuente_url": "",
+    "maquina": "Sensor fotoeléctrico Entrada [SEN-SIC-001]"
+  },
+  {
+    "titulo": "fp_material: El lector no lee los códigos de barras: Lector de códigos 02",
+    "tipo": "Material FP",
+    "contenido_extraido": "Limpiar la ventana, comprobar la calidad de impresión, el ángulo y la distancia. Ajustar exposición y ganancia.",
+    "archivo": "manuales/Lectordecodigos02LEC-ZEB-002-01.md",
+    "fuente_url": "",
+    "maquina": "Lector de códigos 02 [LEC-ZEB-002]"
+  },
+  {
+    "titulo": "fp_material: Lecturas intermitentes con el transportador en movimiento: Lector de códigos 02",
+    "tipo": "Material FP",
+    "contenido_extraido": "Aumentar la iluminación, reducir la velocidad y verificar el disparo. Ajustar el tiempo de exposición.",
+    "archivo": "manuales/Lectordecodigos02LEC-ZEB-002-02.md",
+    "fuente_url": "",
+    "maquina": "Lector de códigos 02 [LEC-ZEB-002]"
+  },
+  {
+    "titulo": "fp_material: Sin comunicación con el servidor: Lector de códigos 02",
+    "tipo": "Material FP",
+    "contenido_extraido": "Comprobar cable de red, dirección IP y configuración del puerto. Hacer ping al equipo y reiniciar el lector.",
+    "archivo": "manuales/Lectordecodigos02LEC-ZEB-002-03.md",
+    "fuente_url": "",
+    "maquina": "Lector de códigos 02 [LEC-ZEB-002]"
+  },
+  {
+    "titulo": "fp_material: Datos corruptos o caracteres extraños: Lector de códigos 02",
+    "tipo": "Material FP",
+    "contenido_extraido": "Revisar configuración de simbología, prefijo y sufijo, y formato de salida. Restaurar el perfil de fábrica.",
+    "archivo": "manuales/Lectordecodigos02LEC-ZEB-002-04.md",
+    "fuente_url": "",
+    "maquina": "Lector de códigos 02 [LEC-ZEB-002]"
+  },
+  {
+    "titulo": "manual_tecnico: Configuración de simbologías y formato de salida: Lector de códigos 02",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Activar Code 128, EAN-13 y DataMatrix; desactivar el resto para mejorar velocidad. Terminador CR/LF.",
+    "archivo": "manuales/Lectordecodigos02LEC-ZEB-002-05.md",
+    "fuente_url": "",
+    "maquina": "Lector de códigos 02 [LEC-ZEB-002]"
+  },
+  {
+    "titulo": "manual_tecnico: Configuración de red y protocolo: Lector de códigos 02",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Dirección IP fija, máscara y puerta de enlace asignadas por IT. Protocolo TCP/IP hacia el middleware de la planta.",
+    "archivo": "manuales/Lectordecodigos02LEC-ZEB-002-06.md",
+    "fuente_url": "",
+    "maquina": "Lector de códigos 02 [LEC-ZEB-002]"
+  },
+  {
+    "titulo": "manual_tecnico: Mantenimiento y limpieza del lector: Lector de códigos 02",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Limpiar la ventana con alcohol isopropílico cada mes. Revisar el soporte y el cableado cada seis meses.",
+    "archivo": "manuales/Lectordecodigos02LEC-ZEB-002-07.md",
+    "fuente_url": "",
+    "maquina": "Lector de códigos 02 [LEC-ZEB-002]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de alimentación y comunicaciones: Lector de códigos 02",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Alimentación 24 V DC mediante M12, Ethernet por conector independiente. Protección de 1 A.",
+    "archivo": "manuales/Lectordecodigos02LEC-ZEB-002-08.md",
+    "fuente_url": "",
+    "maquina": "Lector de códigos 02 [LEC-ZEB-002]"
+  },
+  {
+    "titulo": "esquema_electrico: Conexión de la entrada de trigger y salidas: Lector de códigos 02",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Trigger desde fotocélula de producto, salida de buena lectura y fallo hacia el PLC.",
+    "archivo": "manuales/Lectordecodigos02LEC-ZEB-002-09.md",
+    "fuente_url": "",
+    "maquina": "Lector de códigos 02 [LEC-ZEB-002]"
+  },
+  {
+    "titulo": "esquema_electrico: Cableado de la comunicación serie RS-232 de respaldo: Lector de códigos 02",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Pines TX, RX y GND hacia el conversor. Velocidad 115200 baudios, 8N1.",
+    "archivo": "manuales/Lectordecodigos02LEC-ZEB-002-10.md",
+    "fuente_url": "",
+    "maquina": "Lector de códigos 02 [LEC-ZEB-002]"
+  },
+  {
+    "titulo": "fp_material: Lector 01 sin lectura en etiquetas dañadas: Lector de códigos 01",
+    "tipo": "Material FP",
+    "contenido_extraido": "Revisar etiquetas arrugadas o rayadas, sustituirlas y ajustar el nivel de decodificación.",
+    "archivo": "manuales/Lectordecodigos01LEC-COG-001-01.md",
+    "fuente_url": "",
+    "maquina": "Lector de códigos 01 [LEC-COG-001]"
+  },
+  {
+    "titulo": "fp_material: Error de enfoque en cajas de distinta altura: Lector de códigos 01",
+    "tipo": "Material FP",
+    "contenido_extraido": "Activar el enfoque automático o ampliar la profundidad de campo. Reconfigurar el perfil por altura.",
+    "archivo": "manuales/Lectordecodigos01LEC-COG-001-02.md",
+    "fuente_url": "",
+    "maquina": "Lector de códigos 01 [LEC-COG-001]"
+  },
+  {
+    "titulo": "fp_material: El lector se reinicia de forma aleatoria: Lector de códigos 01",
+    "tipo": "Material FP",
+    "contenido_extraido": "Medir la tensión de alimentación, revisar la fuente y los conectores. Actualizar el firmware.",
+    "archivo": "manuales/Lectordecodigos01LEC-COG-001-03.md",
+    "fuente_url": "",
+    "maquina": "Lector de códigos 01 [LEC-COG-001]"
+  },
+  {
+    "titulo": "fp_material: Lecturas duplicadas de la misma caja: Lector de códigos 01",
+    "tipo": "Material FP",
+    "contenido_extraido": "Aumentar el tiempo de bloqueo tras lectura y revisar el disparo. Filtrar duplicados en el PLC.",
+    "archivo": "manuales/Lectordecodigos01LEC-COG-001-04.md",
+    "fuente_url": "",
+    "maquina": "Lector de códigos 01 [LEC-COG-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Procedimiento de aprendizaje y entrenamiento del código: Lector de códigos 01",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Presentar el código de referencia, ejecutar el aprendizaje desde el software y guardar el perfil.",
+    "archivo": "manuales/Lectordecodigos01LEC-COG-001-05.md",
+    "fuente_url": "",
+    "maquina": "Lector de códigos 01 [LEC-COG-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Actualización de firmware: Lector de códigos 01",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Descargar el firmware, cargarlo mediante el software de configuración y verificar versión y parámetros después de reiniciar.",
+    "archivo": "manuales/Lectordecodigos01LEC-COG-001-06.md",
+    "fuente_url": "",
+    "maquina": "Lector de códigos 01 [LEC-COG-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Especificaciones técnicas: Lector de códigos 01",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Resolución 1,3 MP, velocidad de lectura 60 lecturas/s, iluminación LED roja, IP65, alimentación 24 V DC.",
+    "archivo": "manuales/Lectordecodigos01LEC-COG-001-07.md",
+    "fuente_url": "",
+    "maquina": "Lector de códigos 01 [LEC-COG-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de cableado del lector: Lector de códigos 01",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Alimentación, comunicación Ethernet y E/S discretas por conectores M12 independientes.",
+    "archivo": "manuales/Lectordecodigos01LEC-COG-001-08.md",
+    "fuente_url": "",
+    "maquina": "Lector de códigos 01 [LEC-COG-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Cableado del disparo desde el sensor de entrada: Lector de códigos 01",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Sensor PNP al pin de trigger del lector, con 0 V común y protección contra cortocircuitos.",
+    "archivo": "manuales/Lectordecodigos01LEC-COG-001-09.md",
+    "fuente_url": "",
+    "maquina": "Lector de códigos 01 [LEC-COG-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Distribución de comunicaciones en el armario: Lector de códigos 01",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Cable Ethernet apantallado a switch gestionado con VLAN de lectores.",
+    "archivo": "manuales/Lectordecodigos01LEC-COG-001-10.md",
+    "fuente_url": "",
+    "maquina": "Lector de códigos 01 [LEC-COG-001]"
+  },
+  {
+    "titulo": "fp_material: CPU en modo STOP con LED de fallo: PLC Clasificador",
+    "tipo": "Material FP",
+    "contenido_extraido": "Leer el búfer de diagnóstico, identificar el error de programa o hardware, corregirlo y volver a RUN. Verificar la batería o la tarjeta de memoria.",
+    "archivo": "manuales/PLCClasificadorPLC-SIE-002-01.md",
+    "fuente_url": "",
+    "maquina": "PLC Clasificador [PLC-SIE-002]"
+  },
+  {
+    "titulo": "fp_material: Fallo de módulo de E/S: PLC Clasificador",
+    "tipo": "Material FP",
+    "contenido_extraido": "Revisar conexión del bus de fondo, alimentación del módulo y direccionamiento. Sustituir el módulo y recargar la configuración.",
+    "archivo": "manuales/PLCClasificadorPLC-SIE-002-02.md",
+    "fuente_url": "",
+    "maquina": "PLC Clasificador [PLC-SIE-002]"
+  },
+  {
+    "titulo": "fp_material: Pérdida de comunicación PROFINET con periferia: PLC Clasificador",
+    "tipo": "Material FP",
+    "contenido_extraido": "Comprobar cable, switch, nombre del dispositivo y dirección IP. Reasignar el nombre PROFINET si es necesario.",
+    "archivo": "manuales/PLCClasificadorPLC-SIE-002-03.md",
+    "fuente_url": "",
+    "maquina": "PLC Clasificador [PLC-SIE-002]"
+  },
+  {
+    "titulo": "fp_material: Ciclo de scan excesivo: PLC Clasificador",
+    "tipo": "Material FP",
+    "contenido_extraido": "Analizar el tiempo de ciclo, optimizar bloques de código y mover tareas pesadas a interrupciones cíclicas.",
+    "archivo": "manuales/PLCClasificadorPLC-SIE-002-04.md",
+    "fuente_url": "",
+    "maquina": "PLC Clasificador [PLC-SIE-002]"
+  },
+  {
+    "titulo": "manual_tecnico: Estructura del programa del clasificador: PLC Clasificador",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Bloques OB1 principal, FC de control de desviadores, FB de seguimiento de paquetes y DB de configuración de destinos.",
+    "archivo": "manuales/PLCClasificadorPLC-SIE-002-05.md",
+    "fuente_url": "",
+    "maquina": "PLC Clasificador [PLC-SIE-002]"
+  },
+  {
+    "titulo": "manual_tecnico: Procedimiento de copia de seguridad del programa: PLC Clasificador",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Cargar el proyecto desde la CPU, guardarlo con la versión y archivar la copia en el servidor de ingeniería.",
+    "archivo": "manuales/PLCClasificadorPLC-SIE-002-06.md",
+    "fuente_url": "",
+    "maquina": "PLC Clasificador [PLC-SIE-002]"
+  },
+  {
+    "titulo": "manual_tecnico: Lista de entradas y salidas del PLC: PLC Clasificador",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Tabla de direcciones: sensores de entrada, finales de carrera, electroválvulas de desviadores y señales de seguridad.",
+    "archivo": "manuales/PLCClasificadorPLC-SIE-002-07.md",
+    "fuente_url": "",
+    "maquina": "PLC Clasificador [PLC-SIE-002]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de alimentación del PLC y periferia: PLC Clasificador",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Fuente de 24 V 10 A con supervisión, módulo de CPU y módulos de E/S en el bastidor.",
+    "archivo": "manuales/PLCClasificadorPLC-SIE-002-08.md",
+    "fuente_url": "",
+    "maquina": "PLC Clasificador [PLC-SIE-002]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de red PROFINET: PLC Clasificador",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Topología en línea con switch central, variadores, lectores y cabeza de línea. Direcciones IP en 192.168.10.x.",
+    "archivo": "manuales/PLCClasificadorPLC-SIE-002-09.md",
+    "fuente_url": "",
+    "maquina": "PLC Clasificador [PLC-SIE-002]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de cableado de las salidas a electroválvulas: PLC Clasificador",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Salidas digitales con relés de interposición y diodos de protección.",
+    "archivo": "manuales/PLCClasificadorPLC-SIE-002-10.md",
+    "fuente_url": "",
+    "maquina": "PLC Clasificador [PLC-SIE-002]"
+  },
+  {
+    "titulo": "fp_material: La línea principal se detiene sin alarma visible: PLC Línea Principal",
+    "tipo": "Material FP",
+    "contenido_extraido": "Consultar el búfer de diagnóstico y el estado de las seguridades. Revisar condiciones de permisivo y los enclavamientos.",
+    "archivo": "manuales/PLCLineaPrincipalPLC-SIE-001-01.md",
+    "fuente_url": "",
+    "maquina": "PLC Línea Principal [PLC-SIE-001]"
+  },
+  {
+    "titulo": "fp_material: Alarma de batería o tarjeta de memoria: PLC Línea Principal",
+    "tipo": "Material FP",
+    "contenido_extraido": "Sustituir la batería o tarjeta. Verificar que el programa quede retentivo antes de apagar.",
+    "archivo": "manuales/PLCLineaPrincipalPLC-SIE-001-02.md",
+    "fuente_url": "",
+    "maquina": "PLC Línea Principal [PLC-SIE-001]"
+  },
+  {
+    "titulo": "fp_material: Variadores no arrancan desde el PLC: PLC Línea Principal",
+    "tipo": "Material FP",
+    "contenido_extraido": "Revisar el estado del bus, las palabras de control y los permisivos de seguridad. Comprobar el telegrama configurado.",
+    "archivo": "manuales/PLCLineaPrincipalPLC-SIE-001-03.md",
+    "fuente_url": "",
+    "maquina": "PLC Línea Principal [PLC-SIE-001]"
+  },
+  {
+    "titulo": "fp_material: Pérdida de datos del HMI: PLC Línea Principal",
+    "tipo": "Material FP",
+    "contenido_extraido": "Verificar la comunicación con el HMI, las direcciones de las variables y la versión del proyecto.",
+    "archivo": "manuales/PLCLineaPrincipalPLC-SIE-001-04.md",
+    "fuente_url": "",
+    "maquina": "PLC Línea Principal [PLC-SIE-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Arquitectura general de control de la línea: PLC Línea Principal",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "El PLC controla transportadores, variadores y lectores, e intercambia datos con el WMS mediante una pasarela OPC UA.",
+    "archivo": "manuales/PLCLineaPrincipalPLC-SIE-001-05.md",
+    "fuente_url": "",
+    "maquina": "PLC Línea Principal [PLC-SIE-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Procedimiento de puesta en marcha tras mantenimiento: PLC Línea Principal",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Verificar seguridad, alimentación y comunicaciones; pasar a RUN; probar los modos manual y automático por secciones.",
+    "archivo": "manuales/PLCLineaPrincipalPLC-SIE-001-06.md",
+    "fuente_url": "",
+    "maquina": "PLC Línea Principal [PLC-SIE-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Gestión de usuarios y permisos: PLC Línea Principal",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Niveles de acceso: operador, mantenimiento e ingeniería. Cambiar las contraseñas cada 6 meses.",
+    "archivo": "manuales/PLCLineaPrincipalPLC-SIE-001-07.md",
+    "fuente_url": "",
+    "maquina": "PLC Línea Principal [PLC-SIE-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de armario general de la línea: PLC Línea Principal",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Seccionador general, protecciones de circuitos, fuente 24 V, PLC, switch y borneras.",
+    "archivo": "manuales/PLCLineaPrincipalPLC-SIE-001-08.md",
+    "fuente_url": "",
+    "maquina": "PLC Línea Principal [PLC-SIE-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de la cadena de seguridad: PLC Línea Principal",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Seta de emergencia, relé de seguridad con rearme manual, puertas con interruptores codificados y corte de contactores.",
+    "archivo": "manuales/PLCLineaPrincipalPLC-SIE-001-09.md",
+    "fuente_url": "",
+    "maquina": "PLC Línea Principal [PLC-SIE-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Distribución de E/S remotas ET200: PLC Línea Principal",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Estaciones remotas en cada tramo con alimentación 24 V y cable PROFINET apantallado.",
+    "archivo": "manuales/PLCLineaPrincipalPLC-SIE-001-10.md",
+    "fuente_url": "",
+    "maquina": "PLC Línea Principal [PLC-SIE-001]"
+  },
+  {
+    "titulo": "fp_material: La transelevadora se detiene en pasillo con error de posición: Almacén automático AS/RS",
+    "tipo": "Material FP",
+    "contenido_extraido": "Revisar el encoder láser o el sistema de medición, el reflector y la limpieza. Realizar un reinicio de referencia.",
+    "archivo": "manuales/AlmacenautomaticoASRSASR-SSI-001-01.md",
+    "fuente_url": "",
+    "maquina": "Almacén automático AS/RS [ASR-SSI-001]"
+  },
+  {
+    "titulo": "fp_material: Palet mal posicionado en la ubicación: Almacén automático AS/RS",
+    "tipo": "Material FP",
+    "contenido_extraido": "Verificar las fotocélulas de gálibo, el estado del palet y las horquillas. Corregir en el sistema de gestión.",
+    "archivo": "manuales/AlmacenautomaticoASRSASR-SSI-001-02.md",
+    "fuente_url": "",
+    "maquina": "Almacén automático AS/RS [ASR-SSI-001]"
+  },
+  {
+    "titulo": "fp_material: Alarma de gálibo en la cabecera de entrada: Almacén automático AS/RS",
+    "tipo": "Material FP",
+    "contenido_extraido": "Retirar el palet con sobresaliente, reajustar el perfil y volver a introducir.",
+    "archivo": "manuales/AlmacenautomaticoASRSASR-SSI-001-03.md",
+    "fuente_url": "",
+    "maquina": "Almacén automático AS/RS [ASR-SSI-001]"
+  },
+  {
+    "titulo": "fp_material: Tiempos de ciclo elevados: Almacén automático AS/RS",
+    "tipo": "Material FP",
+    "contenido_extraido": "Comprobar la velocidad de ejes, las rampas y la lista de movimientos. Optimizar la estrategia de doble ciclo.",
+    "archivo": "manuales/AlmacenautomaticoASRSASR-SSI-001-04.md",
+    "fuente_url": "",
+    "maquina": "Almacén automático AS/RS [ASR-SSI-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Descripción del ciclo de almacenaje y extracción: Almacén automático AS/RS",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "El sistema recibe la orden del WMS, desplaza la transelevadora, extrae con horquilla y entrega en la cabecera.",
+    "archivo": "manuales/AlmacenautomaticoASRSASR-SSI-001-05.md",
+    "fuente_url": "",
+    "maquina": "Almacén automático AS/RS [ASR-SSI-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Mantenimiento preventivo de la transelevadora: Almacén automático AS/RS",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Inspeccionar semanalmente ruedas y guías, mensualmente cables y cadenas, anualmente frenos y reductores.",
+    "archivo": "manuales/AlmacenautomaticoASRSASR-SSI-001-06.md",
+    "fuente_url": "",
+    "maquina": "Almacén automático AS/RS [ASR-SSI-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Procedimiento de recuperación tras parada de emergencia: Almacén automático AS/RS",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Liberar el obstáculo, rearmar seguridades, referenciar ejes y comprobar los datos de ubicación con el WMS.",
+    "archivo": "manuales/AlmacenautomaticoASRSASR-SSI-001-07.md",
+    "fuente_url": "",
+    "maquina": "Almacén automático AS/RS [ASR-SSI-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de potencia de la transelevadora: Almacén automático AS/RS",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Alimentación por línea de contacto, variadores de traslación, elevación y horquilla, y contactores de seguridad.",
+    "archivo": "manuales/AlmacenautomaticoASRSASR-SSI-001-08.md",
+    "fuente_url": "",
+    "maquina": "Almacén automático AS/RS [ASR-SSI-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de red del control del almacén: Almacén automático AS/RS",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "PLC con periferia distribuida, medición láser y comunicación con el WMS mediante Ethernet.",
+    "archivo": "manuales/AlmacenautomaticoASRSASR-SSI-001-09.md",
+    "fuente_url": "",
+    "maquina": "Almacén automático AS/RS [ASR-SSI-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de la seguridad de pasillos: Almacén automático AS/RS",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Escáner de zona y puertas con enclavamiento, relé de seguridad con niveles de rearme.",
+    "archivo": "manuales/AlmacenautomaticoASRSASR-SSI-001-10.md",
+    "fuente_url": "",
+    "maquina": "Almacén automático AS/RS [ASR-SSI-001]"
+  },
+  {
+    "titulo": "fp_material: El elevador no sube ni baja: Elevador vertical 01",
+    "tipo": "Material FP",
+    "contenido_extraido": "Comprobar seguridades, finales de carrera, variador y freno. Verificar permisivos del PLC.",
+    "archivo": "manuales/Elevadorvertical01ELV-SSI-001-01.md",
+    "fuente_url": "",
+    "maquina": "Elevador vertical 01 [ELV-SSI-001]"
+  },
+  {
+    "titulo": "fp_material: Parada en posición intermedia: Elevador vertical 01",
+    "tipo": "Material FP",
+    "contenido_extraido": "Revisar sensores de piso, el encoder y la lógica de nivelación. Efectuar un nuevo aprendizaje de alturas.",
+    "archivo": "manuales/Elevadorvertical01ELV-SSI-001-02.md",
+    "fuente_url": "",
+    "maquina": "Elevador vertical 01 [ELV-SSI-001]"
+  },
+  {
+    "titulo": "fp_material: Desnivel entre el elevador y el transportador: Elevador vertical 01",
+    "tipo": "Material FP",
+    "contenido_extraido": "Ajustar la parada y los parámetros de nivelación y revisar el desgaste del freno.",
+    "archivo": "manuales/Elevadorvertical01ELV-SSI-001-03.md",
+    "fuente_url": "",
+    "maquina": "Elevador vertical 01 [ELV-SSI-001]"
+  },
+  {
+    "titulo": "fp_material: Fallo de freno del motor: Elevador vertical 01",
+    "tipo": "Material FP",
+    "contenido_extraido": "Medir la tensión del freno, el entrehierro y los contactos. Sustituir la bobina o las zapatas.",
+    "archivo": "manuales/Elevadorvertical01ELV-SSI-001-04.md",
+    "fuente_url": "",
+    "maquina": "Elevador vertical 01 [ELV-SSI-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Parámetros de velocidad y capacidad: Elevador vertical 01",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Capacidad 500 kg, velocidad 0,5 m/s, aceleración 0,3 m/s². Carga máxima visible en el chasis.",
+    "archivo": "manuales/Elevadorvertical01ELV-SSI-001-05.md",
+    "fuente_url": "",
+    "maquina": "Elevador vertical 01 [ELV-SSI-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Revisión periódica de seguridad: Elevador vertical 01",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Probar paracaídas o limitador de velocidad, finales de carrera de seguridad y cables cada seis meses.",
+    "archivo": "manuales/Elevadorvertical01ELV-SSI-001-06.md",
+    "fuente_url": "",
+    "maquina": "Elevador vertical 01 [ELV-SSI-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Mantenimiento mecánico de cadenas y guías: Elevador vertical 01",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Lubricar cadenas cada mes y revisar tensión. Inspeccionar guías y rodillos cada tres meses.",
+    "archivo": "manuales/Elevadorvertical01ELV-SSI-001-07.md",
+    "fuente_url": "",
+    "maquina": "Elevador vertical 01 [ELV-SSI-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de potencia del grupo motor-freno: Elevador vertical 01",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Variador, contactor de freno, motor trifásico y resistencia de frenado.",
+    "archivo": "manuales/Elevadorvertical01ELV-SSI-001-08.md",
+    "fuente_url": "",
+    "maquina": "Elevador vertical 01 [ELV-SSI-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Cableado de finales de carrera y sensores de piso: Elevador vertical 01",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Sensores inductivos en cada piso y finales de seguridad en serie con la cadena de seguridad.",
+    "archivo": "manuales/Elevadorvertical01ELV-SSI-001-09.md",
+    "fuente_url": "",
+    "maquina": "Elevador vertical 01 [ELV-SSI-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Circuito de seguridad de puertas de acceso: Elevador vertical 01",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Interruptores codificados en puertas de cada nivel conectados al relé de seguridad.",
+    "archivo": "manuales/Elevadorvertical01ELV-SSI-001-10.md",
+    "fuente_url": "",
+    "maquina": "Elevador vertical 01 [ELV-SSI-001]"
+  },
+  {
+    "titulo": "fp_material: Paquetes enviados a destino incorrecto: Clasificador automático",
+    "tipo": "Material FP",
+    "contenido_extraido": "Comprobar lectura de código, tabla de destinos y retardos de desvío. Verificar que el sensor de seguimiento no tiene falsas detecciones.",
+    "archivo": "manuales/ClasificadorautomaticoSORT-VAN-001-01.md",
+    "fuente_url": "",
+    "maquina": "Clasificador automático [SORT-VAN-001]"
+  },
+  {
+    "titulo": "fp_material: Atascos en los desviadores: Clasificador automático",
+    "tipo": "Material FP",
+    "contenido_extraido": "Inspeccionar los desviadores, la presión neumática y la sincronización. Ajustar la separación entre paquetes.",
+    "archivo": "manuales/ClasificadorautomaticoSORT-VAN-001-02.md",
+    "fuente_url": "",
+    "maquina": "Clasificador automático [SORT-VAN-001]"
+  },
+  {
+    "titulo": "fp_material: Sorter se detiene por sobrecarga: Clasificador automático",
+    "tipo": "Material FP",
+    "contenido_extraido": "Revisar el motor, la fricción de la cinta y la carga. Comprobar la intensidad y la tensión de la cadena.",
+    "archivo": "manuales/ClasificadorautomaticoSORT-VAN-001-03.md",
+    "fuente_url": "",
+    "maquina": "Clasificador automático [SORT-VAN-001]"
+  },
+  {
+    "titulo": "fp_material: Tasa de rechazos elevada: Clasificador automático",
+    "tipo": "Material FP",
+    "contenido_extraido": "Revisar calidad de etiquetas, lectores y condiciones de aproximación. Reducir la velocidad si hay saturación.",
+    "archivo": "manuales/ClasificadorautomaticoSORT-VAN-001-04.md",
+    "fuente_url": "",
+    "maquina": "Clasificador automático [SORT-VAN-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Lógica de clasificación y tabla de destinos: Clasificador automático",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Cada paquete se asocia con un código, el WMS devuelve el destino y el PLC acciona el desviador correspondiente.",
+    "archivo": "manuales/ClasificadorautomaticoSORT-VAN-001-05.md",
+    "fuente_url": "",
+    "maquina": "Clasificador automático [SORT-VAN-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Ajuste del retardo de desviación: Clasificador automático",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "El retardo se calcula con la distancia sensor-desviador dividida entre la velocidad de la cinta, más la compensación del actuador.",
+    "archivo": "manuales/ClasificadorautomaticoSORT-VAN-001-06.md",
+    "fuente_url": "",
+    "maquina": "Clasificador automático [SORT-VAN-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Mantenimiento programado del clasificador: Clasificador automático",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Limpiar y lubricar semanalmente, revisar el estado de los actuadores mensualmente y las cadenas cada trimestre.",
+    "archivo": "manuales/ClasificadorautomaticoSORT-VAN-001-07.md",
+    "fuente_url": "",
+    "maquina": "Clasificador automático [SORT-VAN-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de potencia del sorter: Clasificador automático",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Motor accionado por variador con protección y contactor de seguridad.",
+    "archivo": "manuales/ClasificadorautomaticoSORT-VAN-001-08.md",
+    "fuente_url": "",
+    "maquina": "Clasificador automático [SORT-VAN-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema neumático-eléctrico de desviadores: Clasificador automático",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Electroválvulas 24 V DC conectadas a salidas del PLC con diodos de protección.",
+    "archivo": "manuales/ClasificadorautomaticoSORT-VAN-001-09.md",
+    "fuente_url": "",
+    "maquina": "Clasificador automático [SORT-VAN-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de señales de lectura y seguimiento: Clasificador automático",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Lectores y sensores conectados al PLC Clasificador con encoder de cinta para seguimiento.",
+    "archivo": "manuales/ClasificadorautomaticoSORT-VAN-001-10.md",
+    "fuente_url": "",
+    "maquina": "Clasificador automático [SORT-VAN-001]"
+  },
+  {
+    "titulo": "fp_material: La cinta se desvía hacia un lado: Transportador de cinta Línea 2",
+    "tipo": "Material FP",
+    "contenido_extraido": "Ajustar los rodillos de tensado y alinear tambores. Comprobar el desgaste y la carga centrada.",
+    "archivo": "manuales/TransportadordecintaLinea2CON-DEM-002-01.md",
+    "fuente_url": "",
+    "maquina": "Transportador de cinta Línea 2 [CON-DEM-002]"
+  },
+  {
+    "titulo": "fp_material: La cinta patina en el tambor motriz: Transportador de cinta Línea 2",
+    "tipo": "Material FP",
+    "contenido_extraido": "Aumentar la tensión, limpiar el tambor y revisar el revestimiento. Comprobar la carga.",
+    "archivo": "manuales/TransportadordecintaLinea2CON-DEM-002-02.md",
+    "fuente_url": "",
+    "maquina": "Transportador de cinta Línea 2 [CON-DEM-002]"
+  },
+  {
+    "titulo": "fp_material: Ruido en rodillos: Transportador de cinta Línea 2",
+    "tipo": "Material FP",
+    "contenido_extraido": "Localizar el rodillo con ruido, engrasar o sustituir. Verificar la alineación del bastidor.",
+    "archivo": "manuales/TransportadordecintaLinea2CON-DEM-002-03.md",
+    "fuente_url": "",
+    "maquina": "Transportador de cinta Línea 2 [CON-DEM-002]"
+  },
+  {
+    "titulo": "fp_material: Cinta se detiene por protección térmica: Transportador de cinta Línea 2",
+    "tipo": "Material FP",
+    "contenido_extraido": "Medir intensidad, revisar cuellos de botella y la ventilación del motor.",
+    "archivo": "manuales/TransportadordecintaLinea2CON-DEM-002-04.md",
+    "fuente_url": "",
+    "maquina": "Transportador de cinta Línea 2 [CON-DEM-002]"
+  },
+  {
+    "titulo": "manual_tecnico: Procedimiento de ajuste de tensión y alineación: Transportador de cinta Línea 2",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Ajustar los tensores uniformemente y verificar el recorrido con marcha en vacío durante 10 minutos.",
+    "archivo": "manuales/TransportadordecintaLinea2CON-DEM-002-05.md",
+    "fuente_url": "",
+    "maquina": "Transportador de cinta Línea 2 [CON-DEM-002]"
+  },
+  {
+    "titulo": "manual_tecnico: Plan de mantenimiento mecánico: Transportador de cinta Línea 2",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Revisión semanal de limpieza, mensual de rodillos y trimestral de rodamientos y reductor.",
+    "archivo": "manuales/TransportadordecintaLinea2CON-DEM-002-06.md",
+    "fuente_url": "",
+    "maquina": "Transportador de cinta Línea 2 [CON-DEM-002]"
+  },
+  {
+    "titulo": "manual_tecnico: Sustitución de la cinta transportadora: Transportador de cinta Línea 2",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Aflojar tensores, cortar la cinta antigua, empalmar la nueva con grapas o vulcanizado y retensar.",
+    "archivo": "manuales/TransportadordecintaLinea2CON-DEM-002-07.md",
+    "fuente_url": "",
+    "maquina": "Transportador de cinta Línea 2 [CON-DEM-002]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de potencia del motor de la cinta: Transportador de cinta Línea 2",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Contactor, térmico y variador opcional para la velocidad de la Línea 2.",
+    "archivo": "manuales/TransportadordecintaLinea2CON-DEM-002-08.md",
+    "fuente_url": "",
+    "maquina": "Transportador de cinta Línea 2 [CON-DEM-002]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de pulsadores y paro de emergencia de cinta: Transportador de cinta Línea 2",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Pulsadores locales y cable de tirón de emergencia conectados al relé de seguridad.",
+    "archivo": "manuales/TransportadordecintaLinea2CON-DEM-002-09.md",
+    "fuente_url": "",
+    "maquina": "Transportador de cinta Línea 2 [CON-DEM-002]"
+  },
+  {
+    "titulo": "esquema_electrico: Cableado de sensores de acumulación: Transportador de cinta Línea 2",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Sensores fotoeléctricos al PLC para control de acumulación y marcha por zonas.",
+    "archivo": "manuales/TransportadordecintaLinea2CON-DEM-002-10.md",
+    "fuente_url": "",
+    "maquina": "Transportador de cinta Línea 2 [CON-DEM-002]"
+  },
+  {
+    "titulo": "fp_material: Rodillos motorizados que no giran: Transportador de rodillos Línea 1",
+    "tipo": "Material FP",
+    "contenido_extraido": "Verificar alimentación de la tarjeta de control, la señal de marcha y el estado del rodillo. Sustituir el rodillo si el motor está bloqueado.",
+    "archivo": "manuales/TransportadorderodillosLinea1CON-INT-001-01.md",
+    "fuente_url": "",
+    "maquina": "Transportador de rodillos Línea 1 [CON-INT-001]"
+  },
+  {
+    "titulo": "fp_material: Cajas bloqueadas en zonas de acumulación: Transportador de rodillos Línea 1",
+    "tipo": "Material FP",
+    "contenido_extraido": "Revisar sensores de zona, conexión de las tarjetas y parámetros de acumulación.",
+    "archivo": "manuales/TransportadorderodillosLinea1CON-INT-001-02.md",
+    "fuente_url": "",
+    "maquina": "Transportador de rodillos Línea 1 [CON-INT-001]"
+  },
+  {
+    "titulo": "fp_material: Correa de transmisión desgastada: Transportador de rodillos Línea 1",
+    "tipo": "Material FP",
+    "contenido_extraido": "Sustituir las correas y comprobar la alineación. Revisar los rodamientos asociados.",
+    "archivo": "manuales/TransportadorderodillosLinea1CON-INT-001-03.md",
+    "fuente_url": "",
+    "maquina": "Transportador de rodillos Línea 1 [CON-INT-001]"
+  },
+  {
+    "titulo": "fp_material: Ruido o vibración excesiva: Transportador de rodillos Línea 1",
+    "tipo": "Material FP",
+    "contenido_extraido": "Comprobar los rodamientos y los soportes. Apretar los anclajes y eliminar las piezas sueltas.",
+    "archivo": "manuales/TransportadorderodillosLinea1CON-INT-001-04.md",
+    "fuente_url": "",
+    "maquina": "Transportador de rodillos Línea 1 [CON-INT-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Principio de funcionamiento por zonas: Transportador de rodillos Línea 1",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Cada zona dispone de un sensor y una tarjeta que gestionan la marcha y la acumulación sin presión.",
+    "archivo": "manuales/TransportadorderodillosLinea1CON-INT-001-05.md",
+    "fuente_url": "",
+    "maquina": "Transportador de rodillos Línea 1 [CON-INT-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Mantenimiento de rodillos y tarjetas: Transportador de rodillos Línea 1",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Limpiar semanalmente los sensores, revisar mensualmente rodillos y correas y sustituir los de mayor desgaste.",
+    "archivo": "manuales/TransportadorderodillosLinea1CON-INT-001-06.md",
+    "fuente_url": "",
+    "maquina": "Transportador de rodillos Línea 1 [CON-INT-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Parámetros de velocidad y acumulación: Transportador de rodillos Línea 1",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Velocidad 0,5 m/s, retardo de acumulación 0,5 s, modo de acumulación singulado.",
+    "archivo": "manuales/TransportadorderodillosLinea1CON-INT-001-07.md",
+    "fuente_url": "",
+    "maquina": "Transportador de rodillos Línea 1 [CON-INT-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de alimentación de tarjetas de control: Transportador de rodillos Línea 1",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Fuente 24 V DC por tramos con protecciones y bus de interconexión entre tarjetas.",
+    "archivo": "manuales/TransportadorderodillosLinea1CON-INT-001-08.md",
+    "fuente_url": "",
+    "maquina": "Transportador de rodillos Línea 1 [CON-INT-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Cableado de sensores de zona: Transportador de rodillos Línea 1",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Sensores PNP conectados a cada tarjeta con alimentación compartida y 0 V común.",
+    "archivo": "manuales/TransportadorderodillosLinea1CON-INT-001-09.md",
+    "fuente_url": "",
+    "maquina": "Transportador de rodillos Línea 1 [CON-INT-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Conexión con el PLC Línea Principal: Transportador de rodillos Línea 1",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Señales de marcha, parada y fallo por tramo mediante E/S remota.",
+    "archivo": "manuales/TransportadorderodillosLinea1CON-INT-001-10.md",
+    "fuente_url": "",
+    "maquina": "Transportador de rodillos Línea 1 [CON-INT-001]"
+  },
+  {
+    "titulo": "fp_material: El AMR 02 pierde la localización: Robot móvil AMR 02",
+    "tipo": "Material FP",
+    "contenido_extraido": "Reiniciar la localización en el mapa, comprobar los sensores láser y limpiar ópticas. Revisar cambios en el entorno.",
+    "archivo": "manuales/RobotmovilAMR02AMR-MIR-002-01.md",
+    "fuente_url": "",
+    "maquina": "Robot móvil AMR 02 [AMR-MIR-002]"
+  },
+  {
+    "titulo": "fp_material: Batería baja y no regresa a carga: Robot móvil AMR 02",
+    "tipo": "Material FP",
+    "contenido_extraido": "Verificar el umbral configurado, la estación de carga y los contactos. Sustituir la batería degradada.",
+    "archivo": "manuales/RobotmovilAMR02AMR-MIR-002-02.md",
+    "fuente_url": "",
+    "maquina": "Robot móvil AMR 02 [AMR-MIR-002]"
+  },
+  {
+    "titulo": "fp_material: El robot se detiene por obstáculo: Robot móvil AMR 02",
+    "tipo": "Material FP",
+    "contenido_extraido": "Revisar la zona de seguridad, el láser y los sensores 3D. Retirar el obstáculo y reanudar la misión.",
+    "archivo": "manuales/RobotmovilAMR02AMR-MIR-002-03.md",
+    "fuente_url": "",
+    "maquina": "Robot móvil AMR 02 [AMR-MIR-002]"
+  },
+  {
+    "titulo": "fp_material: Pérdida de conexión WiFi: Robot móvil AMR 02",
+    "tipo": "Material FP",
+    "contenido_extraido": "Comprobar el punto de acceso, la cobertura y la interferencia. Reasignar el roaming si es necesario.",
+    "archivo": "manuales/RobotmovilAMR02AMR-MIR-002-04.md",
+    "fuente_url": "",
+    "maquina": "Robot móvil AMR 02 [AMR-MIR-002]"
+  },
+  {
+    "titulo": "manual_tecnico: Gestión de misiones y mapas: Robot móvil AMR 02",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Las misiones se crean en la interfaz web, se asocian a posiciones del mapa y se lanzan desde el WMS o manualmente.",
+    "archivo": "manuales/RobotmovilAMR02AMR-MIR-002-05.md",
+    "fuente_url": "",
+    "maquina": "Robot móvil AMR 02 [AMR-MIR-002]"
+  },
+  {
+    "titulo": "manual_tecnico: Mantenimiento preventivo del AMR: Robot móvil AMR 02",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Limpieza semanal de sensores, revisión mensual de ruedas y trimestral de baterías y contactos de carga.",
+    "archivo": "manuales/RobotmovilAMR02AMR-MIR-002-06.md",
+    "fuente_url": "",
+    "maquina": "Robot móvil AMR 02 [AMR-MIR-002]"
+  },
+  {
+    "titulo": "manual_tecnico: Procedimiento de actualización de software: Robot móvil AMR 02",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Realizar copia del mapa, aplicar la actualización desde la interfaz y validar misiones tras el reinicio.",
+    "archivo": "manuales/RobotmovilAMR02AMR-MIR-002-07.md",
+    "fuente_url": "",
+    "maquina": "Robot móvil AMR 02 [AMR-MIR-002]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de alimentación de la batería y carga: Robot móvil AMR 02",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Batería de litio 24 V, BMS, contactos de carga y protección con fusible.",
+    "archivo": "manuales/RobotmovilAMR02AMR-MIR-002-08.md",
+    "fuente_url": "",
+    "maquina": "Robot móvil AMR 02 [AMR-MIR-002]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de seguridad y paro de emergencia: Robot móvil AMR 02",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Láser de seguridad, setas de emergencia y relé de seguridad cortando el control de motores.",
+    "archivo": "manuales/RobotmovilAMR02AMR-MIR-002-09.md",
+    "fuente_url": "",
+    "maquina": "Robot móvil AMR 02 [AMR-MIR-002]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de comunicaciones WiFi y E/S: Robot móvil AMR 02",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Módulo WiFi 5 GHz, puerto Ethernet de servicio y conexión de E/S para el módulo superior.",
+    "archivo": "manuales/RobotmovilAMR02AMR-MIR-002-10.md",
+    "fuente_url": "",
+    "maquina": "Robot móvil AMR 02 [AMR-MIR-002]"
+  },
+  {
+    "titulo": "fp_material: El AMR 01 queda detenido con error de motor: Robot móvil AMR 01",
+    "tipo": "Material FP",
+    "contenido_extraido": "Revisar los cables del motor, el estado de las ruedas y los controladores. Reiniciar el robot.",
+    "archivo": "manuales/RobotmovilAMR01AMR-MIR-001-01.md",
+    "fuente_url": "",
+    "maquina": "Robot móvil AMR 01 [AMR-MIR-001]"
+  },
+  {
+    "titulo": "fp_material: Desviaciones en la trayectoria: Robot móvil AMR 01",
+    "tipo": "Material FP",
+    "contenido_extraido": "Recalibrar odometría y limpiar las ruedas. Verificar la planicidad del suelo y actualizar el mapa.",
+    "archivo": "manuales/RobotmovilAMR01AMR-MIR-001-02.md",
+    "fuente_url": "",
+    "maquina": "Robot móvil AMR 01 [AMR-MIR-001]"
+  },
+  {
+    "titulo": "fp_material: El robot no coge o suelta el carro: Robot móvil AMR 01",
+    "tipo": "Material FP",
+    "contenido_extraido": "Comprobar el sistema de enganche, sensores de presencia y la posición de acoplamiento.",
+    "archivo": "manuales/RobotmovilAMR01AMR-MIR-001-03.md",
+    "fuente_url": "",
+    "maquina": "Robot móvil AMR 01 [AMR-MIR-001]"
+  },
+  {
+    "titulo": "fp_material: Misión rechazada o en cola: Robot móvil AMR 01",
+    "tipo": "Material FP",
+    "contenido_extraido": "Verificar que no hay conflictos de tráfico, estado de la batería y comunicación con el gestor de flota.",
+    "archivo": "manuales/RobotmovilAMR01AMR-MIR-001-04.md",
+    "fuente_url": "",
+    "maquina": "Robot móvil AMR 01 [AMR-MIR-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Gestión de flota y tráfico de AMR: Robot móvil AMR 01",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "El gestor de flota asigna misiones, resuelve prioridades y evita colisiones entre AMR 01 y AMR 02.",
+    "archivo": "manuales/RobotmovilAMR01AMR-MIR-001-05.md",
+    "fuente_url": "",
+    "maquina": "Robot móvil AMR 01 [AMR-MIR-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Procedimiento de carga y estaciones: Robot móvil AMR 01",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Configurar la posición de carga, el umbral del 25 % y el regreso automático.",
+    "archivo": "manuales/RobotmovilAMR01AMR-MIR-001-06.md",
+    "fuente_url": "",
+    "maquina": "Robot móvil AMR 01 [AMR-MIR-001]"
+  },
+  {
+    "titulo": "manual_tecnico: Mantenimiento de ruedas y chasis: Robot móvil AMR 01",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Inspeccionar el desgaste, limpiar la suciedad de las ruedas y comprobar los tornillos.",
+    "archivo": "manuales/RobotmovilAMR01AMR-MIR-001-07.md",
+    "fuente_url": "",
+    "maquina": "Robot móvil AMR 01 [AMR-MIR-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de potencia y motores de tracción: Robot móvil AMR 01",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Controladores de motor alimentados desde la batería con encoder en cada rueda.",
+    "archivo": "manuales/RobotmovilAMR01AMR-MIR-001-08.md",
+    "fuente_url": "",
+    "maquina": "Robot móvil AMR 01 [AMR-MIR-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de sensores láser y cámaras: Robot móvil AMR 01",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Láser frontal y trasero, cámaras 3D y sensores de proximidad conectados al ordenador de a bordo.",
+    "archivo": "manuales/RobotmovilAMR01AMR-MIR-001-09.md",
+    "fuente_url": "",
+    "maquina": "Robot móvil AMR 01 [AMR-MIR-001]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema del módulo de enganche: Robot móvil AMR 01",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Actuador eléctrico y sensores de final de carrera conectados a las E/S del robot.",
+    "archivo": "manuales/RobotmovilAMR01AMR-MIR-001-10.md",
+    "fuente_url": "",
+    "maquina": "Robot móvil AMR 01 [AMR-MIR-001]"
+  },
+  {
+    "titulo": "fp_material: Paro de emergencia activo y no rearma: Robot paletizador Línea 1",
+    "tipo": "Material FP",
+    "contenido_extraido": "Comprobar setas, puertas con enclavamiento y barreras de luz. Rearmar desde el pad de programación.",
+    "archivo": "manuales/RobotpaletizadorLinea1ROB-KUK-002-01.md",
+    "fuente_url": "",
+    "maquina": "Robot paletizador Línea 1 [ROB-KUK-002]"
+  },
+  {
+    "titulo": "fp_material: Palet mal formado o cajas descolocadas: Robot paletizador Línea 1",
+    "tipo": "Material FP",
+    "contenido_extraido": "Verificar el patrón de paletizado, la posición de recogida y la calibración de la herramienta.",
+    "archivo": "manuales/RobotpaletizadorLinea1ROB-KUK-002-02.md",
+    "fuente_url": "",
+    "maquina": "Robot paletizador Línea 1 [ROB-KUK-002]"
+  },
+  {
+    "titulo": "fp_material: La pinza no sujeta correctamente: Robot paletizador Línea 1",
+    "tipo": "Material FP",
+    "contenido_extraido": "Revisar la presión de vacío o neumática, las ventosas y las electroválvulas. Sustituir los elementos desgastados.",
+    "archivo": "manuales/RobotpaletizadorLinea1ROB-KUK-002-03.md",
+    "fuente_url": "",
+    "maquina": "Robot paletizador Línea 1 [ROB-KUK-002]"
+  },
+  {
+    "titulo": "fp_material: Error de colisión o límites de software: Robot paletizador Línea 1",
+    "tipo": "Material FP",
+    "contenido_extraido": "Retirar la causa, reiniciar el eje afectado y revisar los límites configurados.",
+    "archivo": "manuales/RobotpaletizadorLinea1ROB-KUK-002-04.md",
+    "fuente_url": "",
+    "maquina": "Robot paletizador Línea 1 [ROB-KUK-002]"
+  },
+  {
+    "titulo": "manual_tecnico: Configuración de patrones de paletizado: Robot paletizador Línea 1",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Definir dimensiones de caja y palet, número de capas y patrón de apilado desde el software del robot.",
+    "archivo": "manuales/RobotpaletizadorLinea1ROB-KUK-002-05.md",
+    "fuente_url": "",
+    "maquina": "Robot paletizador Línea 1 [ROB-KUK-002]"
+  },
+  {
+    "titulo": "manual_tecnico: Mantenimiento preventivo del robot: Robot paletizador Línea 1",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Cambiar el aceite de los reductores según horas, revisar cables y baterías de encoders y comprobar los frenos.",
+    "archivo": "manuales/RobotpaletizadorLinea1ROB-KUK-002-06.md",
+    "fuente_url": "",
+    "maquina": "Robot paletizador Línea 1 [ROB-KUK-002]"
+  },
+  {
+    "titulo": "manual_tecnico: Procedimiento de recuperación tras colisión: Robot paletizador Línea 1",
+    "tipo": "Manual Técnico",
+    "contenido_extraido": "Liberar el robot en modo manual, comprobar la herramienta y la calibración, y retomar el ciclo desde posición segura.",
+    "archivo": "manuales/RobotpaletizadorLinea1ROB-KUK-002-07.md",
+    "fuente_url": "",
+    "maquina": "Robot paletizador Línea 1 [ROB-KUK-002]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de potencia y controlador del robot: Robot paletizador Línea 1",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Alimentación trifásica al controlador, servoaccionamientos y conexión al manipulador.",
+    "archivo": "manuales/RobotpaletizadorLinea1ROB-KUK-002-08.md",
+    "fuente_url": "",
+    "maquina": "Robot paletizador Línea 1 [ROB-KUK-002]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de seguridad perimetral: Robot paletizador Línea 1",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Vallado con puertas enclavadas, barrera de luz de acceso de palet y relé de seguridad conectado al controlador.",
+    "archivo": "manuales/RobotpaletizadorLinea1ROB-KUK-002-09.md",
+    "fuente_url": "",
+    "maquina": "Robot paletizador Línea 1 [ROB-KUK-002]"
+  },
+  {
+    "titulo": "esquema_electrico: Esquema de E/S de la herramienta y comunicación con el PLC: Robot paletizador Línea 1",
+    "tipo": "Esquema Eléctrico",
+    "contenido_extraido": "Electroválvulas de la pinza, sensores de vacío y señales de intercambio con el PLC mediante bus de campo.",
+    "archivo": "manuales/RobotpaletizadorLinea1ROB-KUK-002-10.md",
+    "fuente_url": "",
+    "maquina": "Robot paletizador Línea 1 [ROB-KUK-002]"
+  }
+]
